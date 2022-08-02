@@ -3,6 +3,14 @@ import { ref } from 'vue'
 
 defineProps<{ msg: string }>()
 
+// interface Props {
+//     hasFocus: boolean
+//     value: string
+// }
+// const props = withDefaults(defineProps<Props>(), {
+//     hasFocus: false
+// })
+
 const count = ref(0)
 </script>
 
